@@ -8,37 +8,37 @@
 using namespace std;
 
 int main() {
-    // Tipo int
+    //Tipo int.
     cout << "Int:" << endl;
     int num = 3;
     cout << "Tipo: int" << endl;
     cout << "Valor: " << num << endl;
 
-    // Tipo float
+    //Tipo float.
     cout << "\nFloat:" << endl;
     float num_float = 3.5f;
     cout << "Tipo: float" << endl;
     cout << "Valor: " << num_float << endl;
 
-    // Tipo complejo
+    //Tipo complejo.
     cout << "\nComplejo:" << endl;
     complex<double> num_complejo(3.5, 1.0);
     cout << "Tipo: complex<double>" << endl;
     cout << "Valor: " << num_complejo << endl;
 
-    // Tipo booleano
+    //Tipo booleano.
     cout << "\nBooleano:" << endl;
     bool num_booleano = true;
     cout << "Tipo: bool" << endl;
     cout << "Valor: " << num_booleano << endl;
 
-    // Tipo string
+    //Tipo string.
     cout << "\nString:" << endl;
     string num_str = "3";
     cout << "Tipo: string" << endl;
     cout << "Valor: " << num_str << endl;
 
-    // Tipo lista (vector en C++)
+    //Tipo lista.
     cout << "\nLista:" << endl;
     vector<int> num_lista = {1, 2, 3};
     cout << "Tipo: vector<int>" << endl;
@@ -48,7 +48,7 @@ int main() {
     }
     cout << endl;
 
-    // Tipo diccionario (map en C++)
+    //Tipo diccionario.
     cout << "\nDiccionario:" << endl;
     map<string, int> num_diccionario = {{"uno", 1}, {"dos", 2}, {"tres", 3}};
     cout << "Tipo: map<string, int>" << endl;
@@ -58,7 +58,7 @@ int main() {
     }
     cout << endl;
 
-    // Tipo set
+    //Tipo set.
     cout << "\nSet:" << endl;
     set<int> num_set = {1, 2, 3};
     cout << "Tipo: set<int>" << endl;
@@ -68,7 +68,7 @@ int main() {
     }
     cout << endl;
 
-    // Tipo tuple
+    //Tipo tuple.
     cout << "\nTupla:" << endl;
     tuple<int, float, string> num_tupla = make_tuple(1, 2.5f, "hola");
     cout << "Tipo: tuple<int, float, string>" << endl;

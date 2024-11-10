@@ -2,9 +2,9 @@
 using namespace std;
 
 int main() {
-    // Print Hello world.
+    //Print Hello world.
     cout << "Hello world." << endl;
-    // Imprimir Hola mundo.
+    //Imprimir Hola mundo.
     cout << "Hola mundo." << endl;
     return 0;
 }
